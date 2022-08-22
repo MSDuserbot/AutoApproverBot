@@ -66,7 +66,7 @@ func Start(bot *gotgbot.Bot, ctx *ext.Context) error {
 I am a bot made for accepting newly coming join requests at the time they comes.
 I am made with <a href="go.dev">golang</a> to give a better performance!
 
-Bot made with 💝 by <a href="t.me/Aboutmk">எம்.எஸ்.டி</a> f or you!
+Bot made with 💝 by <a href="t.me/Aboutmk">✰எம்.எஸ்.டி✰</a> f or you!
 <b>Support Chat:</b> @TamilPettiKadai
 	`
 	ctx.EffectiveMessage.Reply(
@@ -75,7 +75,7 @@ Bot made with 💝 by <a href="t.me/Aboutmk">எம்.எஸ்.டி</a> f or
 		&gotgbot.SendMessageOpts{
 			ReplyMarkup: gotgbot.InlineKeyboardMarkup{
 				InlineKeyboard: [][]gotgbot.InlineKeyboardButton{{
-					{Text: "Owner", Url: "https://t.me/my_dear_lightbright"},
+					{Text: "σωиєя", Url: "https://t.me/my_dear_lightbright"},
 				}},
 			},
 			ParseMode:             "html",
