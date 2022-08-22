@@ -51,7 +51,7 @@ func main() {
 		fmt.Println("Failed to start bot:", poll.Error())
 	}
 
-	fmt.Printf("@%s has been sucesfully started\n💝Made by @ItsReeshu\n", bot.Username)
+	fmt.Printf("@%s has been sucesfully started\n💝Made by @AboutMK\n", bot.Username)
 	updater.Idle()
 }
 
@@ -66,8 +66,8 @@ func Start(bot *gotgbot.Bot, ctx *ext.Context) error {
 I am a bot made for accepting newly coming join requests at the time they comes.
 I am made with <a href="go.dev">golang</a> to give a better performance!
 
-Bot made with 💝 by <a href="t.me/AboutReeshu">Reeshu</a> for you!
-<b>Support Chat:</b> @UserChatRoom
+Bot made with 💝 by <a href="t.me/Aboutmk">எம்.எஸ்.டி</a> f or you!
+<b>Support Chat:</b> @TamilPettiKadai
 	`
 	ctx.EffectiveMessage.Reply(
 		bot,
@@ -75,7 +75,7 @@ Bot made with 💝 by <a href="t.me/AboutReeshu">Reeshu</a> for you!
 		&gotgbot.SendMessageOpts{
 			ReplyMarkup: gotgbot.InlineKeyboardMarkup{
 				InlineKeyboard: [][]gotgbot.InlineKeyboardButton{{
-					{Text: "My Source Code", Url: "https://github.com/Reeshuxd/AutoApproverBot"},
+					{Text: "Owner", Url: "https://t.me/my_dear_lightbright"},
 				}},
 			},
 			ParseMode:             "html",
